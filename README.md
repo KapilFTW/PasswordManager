@@ -7,10 +7,7 @@ A Basic Password Manager with Data Encryption
 This Password Manager app provides a secure way to store and manage your passwords. It encrypts your data and ensures that your sensitive information is kept safe. The app follows the MVVM architecture and uses Room DB for local data storage. It also includes biometric authentication for an added layer of security.
 
 ## Screenshots
-![image](https://github.com/KapilFTW/PasswordManager/assets/87802829/f58375ff-e9da-4747-b815-d8bf9922cedb)
-![image](https://github.com/KapilFTW/PasswordManager/assets/87802829/5bb17a1b-852b-453a-8e87-5039f98e6e21)
-![image](https://github.com/KapilFTW/PasswordManager/assets/87802829/5d328ad7-6dda-41d0-8ba1-929af25a96d5)
-![image](https://github.com/KapilFTW/PasswordManager/assets/87802829/7064cf8c-59a2-484d-a1d5-5a7f0ef60f7d)
+![image](https://github.com/KapilFTW/PasswordManager/assets/87802829/f58375ff-e9da-4747-b815-d8bf9922cedb) ![image](https://github.com/KapilFTW/PasswordManager/assets/87802829/5bb17a1b-852b-453a-8e87-5039f98e6e21) ![image](https://github.com/KapilFTW/PasswordManager/assets/87802829/5d328ad7-6dda-41d0-8ba1-929af25a96d5) ![image](https://github.com/KapilFTW/PasswordManager/assets/87802829/7064cf8c-59a2-484d-a1d5-5a7f0ef60f7d)
 
 
 
@@ -58,7 +55,7 @@ This Password Manager app provides a secure way to store and manage your passwor
 
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/yourusername/PasswordManager.git
+   git clone https://github.com/KapilFTW/PasswordManager.git
    ```
 2. **Open in Android Studio**: Import the project into Android Studio
 3. **Build the Project**: Let Gradle sync and build the project.
