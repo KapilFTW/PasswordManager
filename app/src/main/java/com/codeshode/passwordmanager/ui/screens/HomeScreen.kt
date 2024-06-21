@@ -16,6 +16,7 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material3.BottomSheetDefaults
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
@@ -48,6 +49,7 @@ import com.codeshode.passwordmanager.ui.components.PasswordCard
 import com.codeshode.passwordmanager.ui.theme.BackgroundColor
 import com.codeshode.passwordmanager.ui.theme.BlackPrimary
 import com.codeshode.passwordmanager.ui.theme.BluePrimary
+import com.codeshode.passwordmanager.ui.theme.BorderColor
 import com.codeshode.passwordmanager.ui.theme.HandleColor
 import com.codeshode.passwordmanager.util.EncryptionUtil
 import com.codeshode.passwordmanager.util.KeyStoreHelper
@@ -93,6 +95,7 @@ fun HomeScreen() {
                     containerColor = BackgroundColor,
                     titleContentColor = BlackPrimary
                 ))
+            Divider(Modifier.fillMaxWidth(), color = Color(0xFFE8E8E8))
             LazyColumn(
                 Modifier
                     .fillMaxSize()
