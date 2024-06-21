@@ -52,6 +52,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.codeshode.passwordmanager.R
@@ -130,19 +131,24 @@ fun PasswordCard(
             .padding(24.dp),
     ) {
         Row(
+            Modifier.fillMaxWidth(0.9f),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             Text(
                 text = password.accountType,
                 style = MaterialTheme.typography.titleLarge,
-                color = BlackPrimary
+                color = BlackPrimary,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
             )
             val mask: Char = '\u2217'
             Text(
                 text = "$mask".repeat(password.password.length),
                 style = MaterialTheme.typography.titleLarge,
                 color = LabelColor,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
                 textAlign = TextAlign.Center,
                 modifier = Modifier
                     .wrapContentHeight()
